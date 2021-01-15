@@ -38,17 +38,17 @@ export default class TemTable extends React.Component {
         return (
             <table>
                <tr>
-                   <th>Template</th>
-                   <th>Format</th>
-                   <th>Location</th>
-                   <th>Status</th>
+                   <th role="template">Template</th>
+                   <th role="format">Format</th>
+                   <th role="location">Location</th>
+                   <th role="status">Status</th>
                 </tr> 
                 {templates.map(tem => 
                     <tr>
-                        <td>{tem.template}</td>
-                        <td>{tem.format}</td>
-                        <td>{tem.location}</td>
-                        <td>
+                        <td role="template">{tem.template}</td>
+                        <td role="format">{tem.format}</td>
+                        <td role="location">{tem.location}</td>
+                        <td role="status">
                             <p 
                                 style={{ 
                                     color: this.getColors(tem.status).color, 

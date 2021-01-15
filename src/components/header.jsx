@@ -11,7 +11,7 @@ export default class Header extends React.Component {
     render(){
         return (
             <div>
-                <h3 style={{ color: '#67788A', textAlign: 'left'}}>FACEBOOK  Manager Onboarding 3.0</h3>
+                <h3 style={{ color: '#67788A', textAlign: 'left'}} role="header">FACEBOOK  Manager Onboarding 3.0</h3>
             </div>
         )
     }
