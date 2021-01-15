@@ -1,0 +1,20 @@
+table {
+    text-align: left;
+
+    th, td {
+        padding: 12px;
+
+    }
+
+    th {
+        border-bottom: 1px solid #D3D3D3 ;
+        color: #465A69;
+        font-size: 16px;
+    }
+
+    td {
+        color: #1C2B33;
+        border-bottom: 1px solid #EEEEEE ;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,27 @@
+.templates-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .templates {
+        width: 50%;
+
+        .main-content {
+            display: flex;
+
+            .title {
+                color: #1C2B33;
+                text-align: left;
+            }
+
+            .intro {
+                color: #67788A;
+                text-align: left;
+                font-size: 24px;
+            }
+
+            .content {
+            
+            }
+        }
+    }
+}
